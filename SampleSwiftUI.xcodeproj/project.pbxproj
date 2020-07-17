@@ -13,6 +13,21 @@
 		F3128E5624C20D2D00901214 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3128E5524C20D2D00901214 /* Assets.xcassets */; };
 		F3128E5924C20D2D00901214 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3128E5824C20D2D00901214 /* Preview Assets.xcassets */; };
 		F3128E5C24C20D2D00901214 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3128E5A24C20D2D00901214 /* LaunchScreen.storyboard */; };
+		F3128E7224C20D4400901214 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3128E6424C20D4400901214 /* Alert.swift */; };
+		F3128E7324C20D4400901214 /* DatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3128E6524C20D4400901214 /* DatePicker.swift */; };
+		F3128E7424C20D4400901214 /* Spacer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3128E6624C20D4400901214 /* Spacer.swift */; };
+		F3128E7524C20D4400901214 /* ZStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3128E6724C20D4400901214 /* ZStack.swift */; };
+		F3128E7624C20D4400901214 /* Toggle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3128E6824C20D4400901214 /* Toggle.swift */; };
+		F3128E7724C20D4400901214 /* ActionSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3128E6924C20D4400901214 /* ActionSheet.swift */; };
+		F3128E7824C20D4400901214 /* Form.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3128E6A24C20D4400901214 /* Form.swift */; };
+		F3128E7924C20D4400901214 /* Group.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3128E6B24C20D4400901214 /* Group.swift */; };
+		F3128E7A24C20D4400901214 /* DatePickerStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3128E6C24C20D4400901214 /* DatePickerStyle.swift */; };
+		F3128E7B24C20D4400901214 /* Slider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3128E6D24C20D4400901214 /* Slider.swift */; };
+		F3128E7C24C20D4400901214 /* HStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3128E6E24C20D4400901214 /* HStack.swift */; };
+		F3128E7D24C20D4400901214 /* Stepper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3128E6F24C20D4400901214 /* Stepper.swift */; };
+		F3128E7E24C20D4400901214 /* VStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3128E7024C20D4400901214 /* VStack.swift */; };
+		F3128E7F24C20D4400901214 /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3128E7124C20D4400901214 /* Button.swift */; };
+		F3128E8224C20D8E00901214 /* Text.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3128E8124C20D8E00901214 /* Text.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +39,21 @@
 		F3128E5824C20D2D00901214 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F3128E5B24C20D2D00901214 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F3128E5D24C20D2D00901214 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3128E6424C20D4400901214 /* Alert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		F3128E6524C20D4400901214 /* DatePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatePicker.swift; sourceTree = "<group>"; };
+		F3128E6624C20D4400901214 /* Spacer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Spacer.swift; sourceTree = "<group>"; };
+		F3128E6724C20D4400901214 /* ZStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZStack.swift; sourceTree = "<group>"; };
+		F3128E6824C20D4400901214 /* Toggle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Toggle.swift; sourceTree = "<group>"; };
+		F3128E6924C20D4400901214 /* ActionSheet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActionSheet.swift; sourceTree = "<group>"; };
+		F3128E6A24C20D4400901214 /* Form.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Form.swift; sourceTree = "<group>"; };
+		F3128E6B24C20D4400901214 /* Group.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Group.swift; sourceTree = "<group>"; };
+		F3128E6C24C20D4400901214 /* DatePickerStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatePickerStyle.swift; sourceTree = "<group>"; };
+		F3128E6D24C20D4400901214 /* Slider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Slider.swift; sourceTree = "<group>"; };
+		F3128E6E24C20D4400901214 /* HStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HStack.swift; sourceTree = "<group>"; };
+		F3128E6F24C20D4400901214 /* Stepper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stepper.swift; sourceTree = "<group>"; };
+		F3128E7024C20D4400901214 /* VStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VStack.swift; sourceTree = "<group>"; };
+		F3128E7124C20D4400901214 /* Button.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
+		F3128E8124C20D8E00901214 /* Text.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Text.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +86,8 @@
 		F3128E4E24C20D2A00901214 /* SampleSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				F3128E8024C20D6500901214 /* TextAndFont */,
+				F3128E6324C20D4400901214 /* SystemViews */,
 				F3128E4F24C20D2A00901214 /* AppDelegate.swift */,
 				F3128E5124C20D2A00901214 /* SceneDelegate.swift */,
 				F3128E5324C20D2A00901214 /* ContentView.swift */,
@@ -73,6 +105,35 @@
 				F3128E5824C20D2D00901214 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F3128E6324C20D4400901214 /* SystemViews */ = {
+			isa = PBXGroup;
+			children = (
+				F3128E6424C20D4400901214 /* Alert.swift */,
+				F3128E6524C20D4400901214 /* DatePicker.swift */,
+				F3128E6624C20D4400901214 /* Spacer.swift */,
+				F3128E6724C20D4400901214 /* ZStack.swift */,
+				F3128E6824C20D4400901214 /* Toggle.swift */,
+				F3128E6924C20D4400901214 /* ActionSheet.swift */,
+				F3128E6A24C20D4400901214 /* Form.swift */,
+				F3128E6B24C20D4400901214 /* Group.swift */,
+				F3128E6C24C20D4400901214 /* DatePickerStyle.swift */,
+				F3128E6D24C20D4400901214 /* Slider.swift */,
+				F3128E6E24C20D4400901214 /* HStack.swift */,
+				F3128E6F24C20D4400901214 /* Stepper.swift */,
+				F3128E7024C20D4400901214 /* VStack.swift */,
+				F3128E7124C20D4400901214 /* Button.swift */,
+			);
+			path = SystemViews;
+			sourceTree = "<group>";
+		};
+		F3128E8024C20D6500901214 /* TextAndFont */ = {
+			isa = PBXGroup;
+			children = (
+				F3128E8124C20D8E00901214 /* Text.swift */,
+			);
+			path = TextAndFont;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,9 +207,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3128E7924C20D4400901214 /* Group.swift in Sources */,
 				F3128E5024C20D2A00901214 /* AppDelegate.swift in Sources */,
+				F3128E7724C20D4400901214 /* ActionSheet.swift in Sources */,
+				F3128E7E24C20D4400901214 /* VStack.swift in Sources */,
+				F3128E8224C20D8E00901214 /* Text.swift in Sources */,
+				F3128E7C24C20D4400901214 /* HStack.swift in Sources */,
+				F3128E7624C20D4400901214 /* Toggle.swift in Sources */,
+				F3128E7424C20D4400901214 /* Spacer.swift in Sources */,
+				F3128E7524C20D4400901214 /* ZStack.swift in Sources */,
+				F3128E7D24C20D4400901214 /* Stepper.swift in Sources */,
 				F3128E5224C20D2A00901214 /* SceneDelegate.swift in Sources */,
+				F3128E7224C20D4400901214 /* Alert.swift in Sources */,
+				F3128E7824C20D4400901214 /* Form.swift in Sources */,
+				F3128E7A24C20D4400901214 /* DatePickerStyle.swift in Sources */,
 				F3128E5424C20D2A00901214 /* ContentView.swift in Sources */,
+				F3128E7324C20D4400901214 /* DatePicker.swift in Sources */,
+				F3128E7B24C20D4400901214 /* Slider.swift in Sources */,
+				F3128E7F24C20D4400901214 /* Button.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
