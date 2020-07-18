@@ -1,5 +1,5 @@
 //
-//  DynamicIdnetifiableList.swift
+//  DynamicIdentifiableList.swift
 //  SampleSwiftUI
 //
 //  Created by TaeWon Seo on 2020/07/18.
@@ -8,7 +8,7 @@
 
 import SwiftUI
 
-struct DynamicIdnetifiableList: View {
+struct DynamicIdentifiableList: View {
     
     var items = AppleProduct.sampleList
     
@@ -24,8 +24,8 @@ struct DynamicIdnetifiableList: View {
     }
 }
 
-struct DynamicIdnetifiableList_Previews: PreviewProvider {
+struct DynamicIdentifiableList_Previews: PreviewProvider {
     static var previews: some View {
-        DynamicIdnetifiableList()
+        DynamicIdentifiableList()
     }
 }
