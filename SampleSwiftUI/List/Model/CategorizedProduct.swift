@@ -1,0 +1,35 @@
+//
+//  CategorizedProduct.swift
+//  SampleSwiftUI
+//
+//  Created by TaeWon Seo on 2020/07/18.
+//  Copyright © 2020 NOWEAT. All rights reserved.
+//
+
+import Foundation
+
+struct CategorizedProduct: Identifiable, Hashable {
+   let id = UUID()
+   let header: String
+   let footer: String?
+   let list: [AppleProduct]
+}
+
+extension CategorizedProduct {
+   static var sampleList: [CategorizedProduct] {
+      return [
+         CategorizedProduct(header: "iPhone",
+                            footer: "Lorem Ipsum",
+                            list: AppleProduct.sampleList.filter { $0.category == "iPhone" }),
+         CategorizedProduct(header: "iPad",
+                            footer: nil,
+                            list: AppleProduct.sampleList.filter { $0.category == "iPad" }),
+         CategorizedProduct(header: "Mac",
+                            footer: nil,
+                            list: AppleProduct.sampleList.filter { $0.category == "Mac" }),
+         CategorizedProduct(header: "Apple Watch",
+                            footer: nil,
+                            list: AppleProduct.sampleList.filter { $0.category == "Apple Watch" })
+      ]
+   }
+}
