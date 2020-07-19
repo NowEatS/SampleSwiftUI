@@ -18,6 +18,7 @@ struct AnimationBasics: View {
                 .frame(width: 50, height: 50)
                 .position(position)
                 .offset(x: 50, y: 50)
+            // 뷰 자체에 모디파이어로 애니메이션 구현.
 //                .animation(Animation
 //                    .easeInOut(duration: 3)
 //                    .speed(1.5)
@@ -27,7 +28,7 @@ struct AnimationBasics: View {
             Spacer()
             
 
-            
+            // 버튼 액션 구현부에 애니메이션 구현 가능
             Button(action: {
                 withAnimation {
                     self.position = self.position == .zero ? CGPoint(x: 300, y: 500) : .zero

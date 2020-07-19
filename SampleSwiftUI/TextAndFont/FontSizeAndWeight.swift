@@ -21,6 +21,7 @@ struct FontSizeAndWeight: View {
                 .font(.system(size: 50, weight: .heavy))
             
             Text("Bold")
+                .font(.system(size: 50, weight: .bold))
             
             Text("SemiBold")
                 .font(.system(size: 50, weight: .semibold))

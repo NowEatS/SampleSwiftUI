@@ -22,7 +22,7 @@ struct SingleSelection: View {
             
             List(items, id: \.self, selection: $selected) { item in
                 Button(action: {
-                    //self.selected = item
+//                    self.selected = item
                 }, label: {
                     Text(item.name)
                 })

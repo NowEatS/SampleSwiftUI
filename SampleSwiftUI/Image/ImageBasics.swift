@@ -17,12 +17,12 @@ struct ImageBasics: View {
             Image("swiftui-logo")
                 .resizable()
                 .aspectRatio(contentMode: .fill)
-                .frame(width: 200, height: 200)
+                .frame(width: 200, height: 300)
             
             Image(systemName: "star")
                 .resizable()
-                .aspectRatio(contentMode: .fill)
-                .frame(width: 200, height:  200)
+                .aspectRatio(contentMode: .fit)
+                .frame(width: 200, height:  300)
                 .foregroundColor(.yellow)
             
             HStack {

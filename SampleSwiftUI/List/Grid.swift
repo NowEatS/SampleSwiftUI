@@ -17,7 +17,9 @@ struct Grid: View {
             
             VStack(spacing: 30) {
                 ForEach(0..<3) { row in
+                    // 3행의 HStack
                     HStack(spacing: 30) {
+                        // 한 행에 2개의 아이템
                         ForEach(0..<2) { col in
                             GridItem(product: self.items[row * 3 + col])
                                 .frame(width: 150, height: 150)

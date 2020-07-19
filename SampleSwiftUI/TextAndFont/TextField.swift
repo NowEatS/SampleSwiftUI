@@ -29,16 +29,21 @@ struct View_TextField: View {
                 print("commit")
             })
                 .padding()
+                // 텕스트필드 테두리 스타일 지정
                 .textFieldStyle(RoundedBorderTextFieldStyle())
                 .font(.body)
-//                .textContentType(.username)
+                // 자동완성 타입 지정
+                //.textContentType(.username)
+                // 영문 자동 대문자 입력 설정
                 .autocapitalization(.none)
+                // 자동문법교정 설정
                 .disableAutocorrection(true)
             
             SecureField("Input Password", text: $password)
                 .padding()
                 .textFieldStyle(RoundedBorderTextFieldStyle())
                 .font(.body)
+                // 입력 키보드 스타일 지정
                 .keyboardType(.numberPad)
             Spacer()
         }
